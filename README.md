@@ -29,7 +29,7 @@
 # it will make an api call on changing the url and loading 
 - you should not be  able to access other routes without login 
 - if token is not present redirect user to login page 
-- logout 
+- logout feature implemented 
 - profile 
 Body
 Navbar
