@@ -26,6 +26,11 @@
 - login and see if your data is comming properly in the store 
 - navbar should update as soon as user login 
 - refractor our code to add constants file + create a components folder 
+# it will make an api call on changing the url and loading 
+- you should not be  able to access other routes without login 
+- if token is not present redirect user to login page 
+- logout 
+- profile 
 Body
 Navbar
 Route = / => Feed
