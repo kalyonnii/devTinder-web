@@ -30,7 +30,10 @@
 - you should not be  able to access other routes without login 
 - if token is not present redirect user to login page 
 - logout feature implemented 
-- profile 
+- get the feed and added the feed to store 
+- build the user card in the feed 
+- edit profile 
+- see all my connections 
 Body
 Navbar
 Route = / => Feed
