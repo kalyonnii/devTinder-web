@@ -34,6 +34,12 @@
 - build the user card in the feed 
 - edit profile 
 - see all my connections 
+- feature - accept/reject connection request 
+
+- send /igonre  the user card from feed
+- signup new user
+- testing 
+
 Body
 Navbar
 Route = / => Feed
