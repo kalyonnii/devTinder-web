@@ -38,7 +38,7 @@
 
 - send /igonre  the user card from feed
 - signup new user
-- testing 
+- E2E testing 
 
 Body
 Navbar
