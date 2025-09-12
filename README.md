@@ -46,3 +46,28 @@ Route = / => Feed
 Route =/login => login
 Route =/connections => Connections
 Route =/profile => profile
+
+
+
+
+# SENDNG EMAIL VIS SES
+
+- create a IAM user 
+- give access to AmazonSESFullAccess
+- amazon ses: create an identity 
+- verify your domain name 
+- verify an email address identity
+- https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html
+- https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/getting-your-credentials.html
+- https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/getting-started-nodejs.html
+- https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/javascript_ses_code_examples.html
+- install AWS sdk  -V3
+- https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/javascriptv3/example_code/ses/src/ses_sendemail.js
+- https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/javascriptv3/example_code/ses/src/libs/sesClient.js
+- setup sesclient
+- access credentials should be created in IAM _ security credetnials tab account
+- add the credentials to the new file 
+- write code for ses client 
+- write code for sending email address
+- make the email dynamic by passing params to the run function 
+

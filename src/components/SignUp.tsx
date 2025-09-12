@@ -25,7 +25,7 @@ const SignUp = () => {
       setTimeout(() => {
         setShowToast("");
       }, 3000);
-    //   navigate("/login");
+      //   navigate("/login");
     } catch (err) {
       setError(err?.response?.data);
     }
