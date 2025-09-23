@@ -71,3 +71,22 @@ Route =/profile => profile
 - write code for sending email address
 - make the email dynamic by passing params to the run function 
 
+
+
+# REAL TIME CHAT USING WEBSOCKET(Socket.io)
+- https://socket.io/
+- build the ui for chat window on /chat/:touserId path 
+- setup socket.io in backend 
+- npm install socket.io in backend 
+- npm i socket.io-client in ui 
+- https://socket.io/docs/v4/client-options/#auth
+- initialize the chat
+- create socket connection 
+- listen to events
+- homework is improve ui
+- fix security bug  - can i send messages to person who is not our friend - yes for now 
+- Auth in web sockets
+- show green symbol when online (ladt seen 2 hours ago )
+- limit message when fetching form db 
+- build pagination 
+- project ideas - tic-tac-toe, chess game 
