@@ -90,3 +90,28 @@ Route =/profile => profile
 - limit message when fetching form db 
 - build pagination 
 - project ideas - tic-tac-toe, chess game 
+
+
+
+deploy the changes 
+- ssh "sdmvnsfdjv"
+- cd devTinder
+- git pull
+- npm install
+- pm2 list
+- pm2 restart 0
+- pm2 flush
+- pm2 logs
+- cd ../devTinder-web/
+- git pull 
+- npm install 
+- npm run build
+- ctrl+r fro back search 
+- sudo scp -r dist/* /var/www/html
+- on page of deployed url will get not found page we need to in nginx
+- sudo nano /etc/nginx/sites-available/default
+- in location .{ // for all single page applications 
+    try_files $url /index.html
+}
+- save the file 
+- sudo systemctl restart nginx
